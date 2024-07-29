@@ -1,0 +1,43 @@
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 2vw;
+    flex-wrap: wrap;
+}
+
+
+.pic {
+    width: 15vw;
+    height: 15vw; 
+    background-size: cover;
+    background-position: center;
+    margin: 0vw; 
+}
+
+@media (max-width: 600px) {
+    .pic {
+        width: 20vw; 
+        height: 20vw;
+    }
+
+    #container {
+        gap: 1vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .pic {
+        width: 25vw; 
+        height: 25vw;
+    }
+
+    #container {
+        gap: 0.5vw; 
+    }
+}
+#result{
+    text-item:center;
+}
